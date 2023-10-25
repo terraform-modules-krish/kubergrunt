@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/gruntwork-io/go-commons/entrypoint"
+	"github.com/terraform-modules-krish/go-commons/entrypoint"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
 )
 
 var (
