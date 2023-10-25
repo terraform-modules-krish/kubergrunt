@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
-	"github.com/gruntwork-io/gruntwork-cli/shell"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/shell"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/helm"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/helm"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 const (

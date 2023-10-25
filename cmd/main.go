@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
