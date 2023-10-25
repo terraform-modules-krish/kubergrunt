@@ -247,7 +247,7 @@ To summarize the best practices for a secure Tiller deployment, one should:
 ## How Kubergrunt Helps
 
 `kubergrunt` includes various commands to help enable those best practices. You can read more about each individual
-commands in [the command docs](/README.md#helm).
+commands in [the command docs](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.2/README.md#helm).
 
 ### Deploying Tiller into its own Namespace
 

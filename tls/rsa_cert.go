@@ -6,7 +6,7 @@ import (
 	"crypto/x509/pkix"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // TLSRSACertificateKeyPair represents the certificate key pair generated using the RSA algorithm.

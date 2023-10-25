@@ -1,7 +1,7 @@
 package kubectl
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/shell"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/shell"
 )
 
 // RunKubectl will make a call to kubectl, setting the config and context to the ones specified in the provided options.
