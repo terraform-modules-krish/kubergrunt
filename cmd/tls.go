@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 var (
