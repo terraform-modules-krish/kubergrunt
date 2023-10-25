@@ -1,12 +1,12 @@
-module github.com/gruntwork-io/kubergrunt
+module github.com/terraform-modules-krish/kubergrunt
 
 go 1.14
 
 require (
 	github.com/aws/aws-sdk-go v1.43.28
 	github.com/blang/semver/v4 v4.0.0
-	github.com/gruntwork-io/go-commons v0.8.2
-	github.com/gruntwork-io/terratest v0.32.9
+	github.com/terraform-modules-krish/go-commons v0.8.2
+	github.com/terraform-modules-krish/terratest v0.32.9
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/mitchellh/go-homedir v1.1.0
