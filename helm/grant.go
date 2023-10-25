@@ -6,13 +6,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	rbacv1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 // GrantAccess grants the provided RBAC groups and/or service accounts access to the Tiller Pod available in the

@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/k8s"
+	"github.com/terraform-modules-krish/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
 )
 
 func TestStoreCertificateStoresInPEMFormat(t *testing.T) {
