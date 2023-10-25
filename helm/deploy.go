@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 // Deploy will deploy a new Tiller to the Kubernetes cluster configured with KubectlOptions following best

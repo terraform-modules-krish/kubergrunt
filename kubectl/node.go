@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // WaitForNodesReady will continuously watch the nodes until they reach the ready state.
