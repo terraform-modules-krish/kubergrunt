@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/helm/cmd/helm/installer"
 	"k8s.io/helm/pkg/helm/portforwarder"
 	helmkube "k8s.io/helm/pkg/kube"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 // DefaultTillerConnectionTimeout is the number of seconds to wait before timing out the connection to Tiller

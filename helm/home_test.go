@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/files"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/files"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"k8s.io/helm/pkg/helm/helmpath"
