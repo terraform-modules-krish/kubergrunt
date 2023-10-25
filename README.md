@@ -1,3 +1,22 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/kubergrunt/) |
+[Pull Requests](https://github.com/gruntwork-io/kubergrunt/pulls) |
+[Issues](https://github.com/gruntwork-io/kubergrunt/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/kubergrunt/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/CHANGELOG.md)
+
+***
+
 [![Maintained by Gruntwork.io](https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg)](https://gruntwork.io/?ref=repo_kubergrunt)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gruntwork-io/kubergrunt.svg?label=latest)](https://github.com/gruntwork-io/kubergrunt/releases/latest)
 
@@ -18,19 +37,19 @@ Some of the features of `kubergrunt` include:
 ## Installation
 
 The binaries are all built as part of the CI pipeline on each release of the package, and is appended to the
-corresponding release in the [Releases Page](/../../releases). You can download the corresponding binary for your
+corresponding release in the [Releases Page](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/../../releases). You can download the corresponding binary for your
 platform from the releases page.
 
 Alternatively, you can install `kubergrunt` using the [Gruntwork
-Installer](https://github.com/gruntwork-io/gruntwork-installer). For example, to install version `v0.5.8`:
+Installer](https://github.com/terraform-modules-krish/gruntwork-installer). For example, to install version `v0.5.8`:
 
 ```bash
-gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/gruntwork-io/kubergrunt" --tag "v0.5.8"
+gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/terraform-modules-krish/kubergrunt" --tag "v0.5.8"
 ```
 
 ### 3rd party package managers
 
-Note that third-party Kubergrunt packages may not be updated with the latest version, but are often close. Please check your version against the latest available on the [Releases Page](/../../releases).
+Note that third-party Kubergrunt packages may not be updated with the latest version, but are often close. Please check your version against the latest available on the [Releases Page](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/../../releases).
 
 Chocolatey (Windows):
 
@@ -256,7 +275,7 @@ The `helm` subcommand of `kubergrunt` provides the ability to manage various Hel
 Kubernetes cluster, in addition to setting up operator machines to authenticate with the designated Helm Server for the
 operator, while following the security best practices from the community.
 
-If you are not familiar with Helm, be sure to check out [our guide](/HELM_GUIDE.md).
+If you are not familiar with Helm, be sure to check out [our guide](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/HELM_GUIDE.md).
 
 **Note**: The `helm` subcommand requires the `helm` client to be installed on the operators' machine. Refer to the
 [official docs](https://docs.helm.sh/) for instructions on installing the client.
@@ -611,7 +630,7 @@ Gruntwork can help with:
 
 ## How do I contribute?
 
-Contributions are very welcome! Check out the [Contribution Guidelines](/CONTRIBUTING.md) for instructions.
+Contributions are very welcome! Check out the [Contribution Guidelines](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/CONTRIBUTING.md) for instructions.
 
 
 ## How is this project versioned?
@@ -626,6 +645,6 @@ MINOR, and PATCH versions on each release to indicate any incompatibilities.
 
 ## License
 
-Please see [LICENSE](/LICENSE) and [NOTICE](/NOTICE) for how the code in this repo is licensed.
+Please see [LICENSE](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/LICENSE) and [NOTICE](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.5.14/NOTICE) for how the code in this repo is licensed.
 
 Copyright &copy; 2019 Gruntwork, Inc.

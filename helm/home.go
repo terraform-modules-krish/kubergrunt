@@ -4,14 +4,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/files"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/files"
 	homedir "github.com/mitchellh/go-homedir"
 	"k8s.io/helm/pkg/getter"
 	"k8s.io/helm/pkg/helm/helmpath"
 	"k8s.io/helm/pkg/repo"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 const (
