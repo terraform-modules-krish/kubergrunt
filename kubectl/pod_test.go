@@ -3,7 +3,7 @@ package kubectl
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/k8s"
+	"github.com/terraform-modules-krish/terratest/modules/k8s"
 	"github.com/stretchr/testify/require"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

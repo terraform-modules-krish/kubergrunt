@@ -6,13 +6,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	homedir "github.com/mitchellh/go-homedir"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // This will create an initial blank config
