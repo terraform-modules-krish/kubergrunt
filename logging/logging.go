@@ -2,7 +2,7 @@
 package logging
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
 	"github.com/sirupsen/logrus"
 )
 
