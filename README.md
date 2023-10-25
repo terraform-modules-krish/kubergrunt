@@ -1,10 +1,29 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/kubergrunt/) |
+[Pull Requests](https://github.com/gruntwork-io/kubergrunt/pulls) |
+[Issues](https://github.com/gruntwork-io/kubergrunt/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/kubergrunt/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/kubergrunt/blob/main/.github/CHANGELOG.md)
+
+***
+
 [![Maintained by Gruntwork.io](https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg)](https://gruntwork.io/?ref=repo_kubergrunt)
 
 # kubergrunt
 
 `kubergrunt` is an encompassing tool that attempts to fill in the gaps between Terraform, Helm, and Kubectl for managing
 a Kubernetes Cluster. The binaries are all built as part of the CI pipeline on each release of the package, and is
-appended to the corresponding release in the [Releases Page](/../../releases).
+appended to the corresponding release in the [Releases Page](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.1.5/../../releases).
 
 Some of the features of `kubergrunt` includes:
 
@@ -16,13 +35,13 @@ Some of the features of `kubergrunt` includes:
 
 ## Installation
 
-You can install `kubergrunt` using the [Gruntwork Installer](https://github.com/gruntwork-io/gruntwork-installer):
+You can install `kubergrunt` using the [Gruntwork Installer](https://github.com/terraform-modules-krish/gruntwork-installer):
 
 ```bash
-gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/gruntwork-io/kubergrunt" --tag "v0.0.1"
+gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/terraform-modules-krish/kubergrunt" --tag "v0.0.1"
 ```
 
-Alternatively, you can download the corresponding binary for your platform directly from the [Releases Page](/../../releases).
+Alternatively, you can download the corresponding binary for your platform directly from the [Releases Page](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.1.5/../../releases).
 
 
 ## Commands
@@ -311,7 +330,7 @@ Gruntwork can help with:
 
 ## How do I contribute?
 
-Contributions are very welcome! Check out the [Contribution Guidelines](/CONTRIBUTING.md) for instructions.
+Contributions are very welcome! Check out the [Contribution Guidelines](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.1.5/CONTRIBUTING.md) for instructions.
 
 
 ## How is this project versioned?
@@ -326,6 +345,6 @@ MINOR, and PATCH versions on each release to indicate any incompatibilities.
 
 ## License
 
-Please see [LICENSE](/LICENSE) for how the code in this repo is licensed.
+Please see [LICENSE](https://github.com/terraform-modules-krish/kubergrunt/blob/v0.1.5/LICENSE) for how the code in this repo is licensed.
 
 Copyright &copy; 2018 Gruntwork, Inc.
