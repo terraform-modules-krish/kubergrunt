@@ -7,11 +7,11 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/terraform-modules-krish/kubergrunt/eksawshelper"
+	"github.com/terraform-modules-krish/terratest/modules/aws"
+	"github.com/terraform-modules-krish/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/terraform"
+	test_structure "github.com/terraform-modules-krish/terratest/modules/test-structure"
 	"github.com/stretchr/testify/require"
 )
 
