@@ -2,7 +2,7 @@ package retry
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 	"time"
 )
 
