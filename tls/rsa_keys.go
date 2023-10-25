@@ -7,7 +7,7 @@ import (
 	"encoding/pem"
 	"io/ioutil"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // StoreRSAPrivateKey takes the given RSA private key, encode it to pem, and store it on disk at the specified path. You

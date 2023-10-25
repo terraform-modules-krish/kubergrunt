@@ -6,15 +6,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/shell"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/shell"
 	"github.com/kubernetes-sigs/aws-iam-authenticator/pkg/token"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/eks"
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/eks"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 var (
