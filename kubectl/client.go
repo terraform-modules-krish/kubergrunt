@@ -3,7 +3,7 @@ package kubectl
 import (
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // GetKubernetesClientFromFile returns a Kubernetes API client given the kubernetes config file path.
