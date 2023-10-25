@@ -3,10 +3,10 @@ package eksawshelper
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/eks"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"sigs.k8s.io/aws-iam-authenticator/pkg/token"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // GetClusterByArn returns the EKS Cluster object that corresponds to the given ARN.
