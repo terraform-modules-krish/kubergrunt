@@ -1,9 +1,9 @@
 package helm
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // RevokeAccess revokes access to a Tiller pod from a provided RBAC user, group, or serviceaccount in a
