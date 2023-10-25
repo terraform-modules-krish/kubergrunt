@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/go-commons/shell"
+	"github.com/terraform-modules-krish/go-commons/entrypoint"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/shell"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/eks"
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/terraform-modules-krish/kubergrunt/eks"
+	"github.com/terraform-modules-krish/kubergrunt/eksawshelper"
 )
 
 var (
