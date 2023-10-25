@@ -5,13 +5,13 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // ConfigureClient will configure the local helm client to be able to communicate with the Tiller server installed in

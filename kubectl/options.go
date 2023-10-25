@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"io/ioutil"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // Represents common options necessary to specify for all Kubectl calls
