@@ -11,9 +11,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/errors"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
 )
 
 // CertificateKeyPairPath represents the path where the certificate key pair resides.
