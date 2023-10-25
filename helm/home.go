@@ -3,7 +3,7 @@ package helm
 import (
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	homedir "github.com/mitchellh/go-homedir"
 )
 

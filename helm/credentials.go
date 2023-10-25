@@ -3,8 +3,8 @@ package helm
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/tls"
 )
 
 func StoreCertificateKeyPairAsKubernetesSecret(
