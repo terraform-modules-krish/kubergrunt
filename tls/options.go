@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/collections"
+	"github.com/terraform-modules-krish/go-commons/errors"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/errors"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 type Thumbprint struct {
