@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // CertificateKeyPairPath represents the path where the certificate key pair resides.

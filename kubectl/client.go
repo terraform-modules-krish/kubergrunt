@@ -7,7 +7,7 @@ import (
 	// See: https://github.com/kubernetes/client-go/issues/242
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/terraform-modules-krish/kubergrunt/logging"
 )
 
 // GetKubernetesClientFromFile returns a Kubernetes API client given the kubernetes config file path.

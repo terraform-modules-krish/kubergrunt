@@ -1,9 +1,9 @@
 package helm
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/shell"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/shell"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
+	"github.com/terraform-modules-krish/kubergrunt/kubectl"
 )
 
 // RunHelm will make a call to helm, setting the config and context to the ones specified in the provided options.
